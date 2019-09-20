@@ -1,65 +1,62 @@
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
-('Alpine Lodge', 'Recreation', 100000, '6/1/16', '12/1/16'),
-('Banana Pies', 'Food', 200000, '9/1/16', '12/1/16'),
-('Camel Racing', 'Recreation', 500000, '12/1/16', '12/1/17'),
-('Duck Breeding', 'Book', 50000, '6/15/16', '8/15/16'),
-('Elephant Ears', 'Music', 25000, '7/15/16', '12/15/16'),
-('Franks on a Stick', 'Food', 1000000, '6/1/16', '6/1/17'),
-('Goose in a Box', 'Animals', 5000, '4/1/16', '11/1/16'),
-('Hall of Fame', 'Music', 100000, '6/1/16', '12/1/16'),
-('I Wrote a book on SQL', 'Book', 5000, '9/1/16', '10/1/16'),
-("Just kidding, I didn't", 'Book', 6000, '10/1/16', '12/1/16');
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Ocean Cleanup", "Environment", 400, "6/1/17", "6/30/17");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Cat & Dog Food Drive", "Animals", 500, "6/1/17", "6/30/17");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Toys for Children", "Children", 125, "6/1/17", "6/30/17");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Meals on Wheels", "Homeless", 75, "6/1/17", "6/30/17");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Alzheimers Run", "Seniors", 100, "6/1/17", "6/30/17");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Counseling Sessions", "Domestic Violence", 65, "7/1/17", "7/31/17");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Wig Making", "Cancer Survivors", 1000, "7/1/17", "7/31/17");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Dog Harnesses", "Blind & Deaf", 500, "7/1/17", "7/31/17");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Musical Instruments", "Developmental Disabilities", 315, "7/1/17", "7/31/17");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("PTSD Counseling", "Military", 80, "7/1/17", "7/31/17");
 
-INSERT INTO users (name, age) VALUES
-('Finnebar', 17),
-('Bear', 6),
-('Iguana', 4),
-('Alex', 33),
-('Amanda', 24),
-('Sophie', 24),
-('Rosey', 9),
-('Victoria', 23),
-('Franz', 100),
-('Hermione', 30),
-('Voldemort', 90),
-('Marisa', 24),
-('Swizzle', 4),
-('Sirius', 36),
-('Albus', 113),
-('Squid', 5),
-('Whale', 6),
-('Pacha', 5),
-('Ena', 24),
-('Katie', 24);
+INSERT INTO users (name, age) VALUES ("Alexis Dorn", 26);
+INSERT INTO users (name, age) VALUES ("Jacob Dorn", 27);
+INSERT INTO users (name, age) VALUES ("Claire Dorn", 24);
+INSERT INTO users (name, age) VALUES ("Patrick Dorn", 51);
+INSERT INTO users (name, age) VALUES ("Abby Dorn", 50);
+INSERT INTO users (name, age) VALUES ("Bill Dorn", 85);
+INSERT INTO users (name, age) VALUES ("Steve Ulrich", 49);
+INSERT INTO users (name, age) VALUES ("Amy Ulrich", 45);
+INSERT INTO users (name, age) VALUES ("Chris Johnson", 38);
+INSERT INTO users (name, age) VALUES ("Jim Ulrich", 84);
+INSERT INTO users (name, age) VALUES ("Alisha Bowman", 27);
+INSERT INTO users (name, age) VALUES ("Kayla Payne", 27);
+INSERT INTO users (name, age) VALUES ("Jason Banning", 27);
+INSERT INTO users (name, age) VALUES ("Morgan Johnson", 26);
+INSERT INTO users (name, age) VALUES ("Casey Ulrich", 27);
+INSERT INTO users (name, age) VALUES ("Taylor Ulrich", 24);
+INSERT INTO users (name, age) VALUES ("Kyle Ulrich", 31);
+INSERT INTO users (name, age) VALUES ("Sean Pinnow", 32);
+INSERT INTO users (name, age) VALUES ("Brady Ulrich", 19);
+INSERT INTO users (name, age) VALUES ("Jaren Ulrich", 22);
 
-INSERT INTO pledges (amount, user_id, project_id) VALUES
-(10.00, 1, 2),
-(20.00, 1, 3),
-(40.00, 1, 4),
-(50.00, 2, 3),
-(10.00, 3, 2),
-(20.00, 4, 4),
-(40.00, 5, 10),
-(60.00, 6, 10),
-(50.00, 7, 9),
-(700.00, 8, 8),
-(1000.00, 8, 7),
-(40.00, 9, 6),
-(50.00, 9, 3),
-(50.00, 10, 4),
-(24.00, 12, 1),
-(34.00, 11, 1),
-(12.00, 13, 6),
-(19.00, 14, 5),
-(20.00, 15, 5),
-(40.00, 16, 6),
-(35.50, 17, 7),
-(40.00, 18, 8),
-(60.00, 19, 9),
-(70.00, 20, 10),
-(100.00, 20, 4),
-(40.00, 19, 1),
-(20.00, 18, 6),
-(90.00, 17, 9),
-(230.00, 16, 6),
-(10.00, 15, 6);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (35, 1, 2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (40, 1, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 1, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20, 2, 8);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20, 2, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 3, 8);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 3, 1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 4, 2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 5, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (35, 5, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 6, 7);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 6, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 6, 10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 6, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 7, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 7, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 8, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 8, 2);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (35, 9, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 10, 10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (30, 11, 1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 12, 1);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 13, 10);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (10, 14, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (40, 15, 3);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (20, 16, 6);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (15, 17, 9);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (50, 18, 5);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (15, 19, 4);
+INSERT INTO pledges (amount, user_id, project_id) VALUES (25, 20, 1);
